@@ -19,6 +19,6 @@ make distclean
 You should be able to run the binary file called `demo`.
 
 ## TODOS
-[ ] Implement sending data to websocket client
-[ ] Implement signal on "Pick a point" button
-[ ] Script to automate Potree installation and launch 
++ [ ] Implement sending data to websocket client
++ [ ] Implement signal on "Pick a point" button
++ [ ] Script to automate Potree installation and launch 
