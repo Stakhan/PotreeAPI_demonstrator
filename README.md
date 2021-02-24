@@ -12,7 +12,7 @@ qmake
 make
 ```
 ## Running
-Make sure Potree is running on `http://localhost:1234`. This can easily be done if you have python installed :
+Make sure [the slightly modified version of Potree](https://github.com/Stakhan/potree) is running on `http://localhost:1234`. This can easily be done if you have python installed :
 ```
 cd potree
 # If your Python version is >= 3.X
