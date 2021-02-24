@@ -11,14 +11,13 @@ Then, in a shell :
 qmake
 make
 ```
-Optionally, you can clean non-necessary files :
-```
-make distclean
-```
 ## Running
+Make sure Potree is running on `http://localhost:1234`.
+
 You should be able to run the binary file called `demo`.
 
 ## TODOS
 + [ ] Implement sending data to websocket client
 + [ ] Implement signal on "Pick a point" button
 + [ ] Script to automate Potree installation and launch 
+
