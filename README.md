@@ -12,9 +12,14 @@ qmake
 make
 ```
 ## Running
-Make sure Potree is running on `http://localhost:1234`.
+Make sure Potree is running on `http://localhost:1234`. This can easily be done if you have python installed :
+```
+cd potree
+# If your Python version is >= 3.X
+python -m http.server --directory ./potree 1234
+```
 
-You should be able to run the binary file called `demo`.
+You should then be able to run the binary file called `demo`.
 
 ## TODOS
 + [ ] Implement sending data to websocket client
