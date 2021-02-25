@@ -4,7 +4,7 @@
 Demonstration of communication between C++ code and [a slightly modified version of Potree](https://github.com/Stakhan/potree).
 
 ## Dependencies
-Make sure you have qt5 installed with the websockets module. On Manjaro Linux this corresponds to the `qt5-base`and `qt5-websockets` packages.
+Make sure you have qt5 installed with the websockets webengine modules. On Manjaro Linux this corresponds to the `qt5-base`, `qt5-websockets` and `qt5-webengine` packages.
 
 ## Compiling
 In the project folder, in a shell :
@@ -14,16 +14,20 @@ make
 ```
 
 ## Running
-Make sure [the slightly modified version of Potree](https://github.com/Stakhan/potree) is running on `http://localhost:1234`. This can easily be done if you have python installed. In the project folder run :
+1. Make sure [the slightly modified version of Potree](https://github.com/Stakhan/potree) has been installed. In the potree folder:
 ```
-# If your Python version is >= 3.X
-python -m http.server --directory ./potree 1234
-```
+npm install
+``` 
 
-You should then be able to run the binary file called `demo`.
+2. And is running on `http://localhost:1234`. The latter can easily be done by using npm in the potree folder:
+```
+npm start 
+```
+Or by launching any [static http server one-liner](https://gist.github.com/willurd/5720255) on port 1234.
+
+3. You should then be able to run the binary file called `demo`.
 
 ## TODOS
 + [ ] Implement sending data to websocket client
 + [ ] Implement signal on "Pick a point" button
-+ [ ] Script to automate Potree installation and launch 
 
