@@ -4,7 +4,17 @@
 Demonstration of communication between C++ code and [a slightly modified version of Potree](https://github.com/Stakhan/potree).
 
 ## Dependencies
-Make sure you have qt5 installed with the websockets webengine modules. On Manjaro Linux this corresponds to the `qt5-base`, `qt5-websockets` and `qt5-webengine` packages.
+Make sure you have qt5 installed with the websockets and webengine modules.
+### On Manjaro Linux 
+The following packages:
++`qt5-base`
++`qt5-websockets`
++`qt5-webengine`
+### On Ubuntu 20.04 / Debian 
+The following packages:
++ `qt5-default`
++ `libqt5websockets5-dev`
++ `qtwebengine5-dev`
 
 ## Compiling
 In the project folder, in a shell :
