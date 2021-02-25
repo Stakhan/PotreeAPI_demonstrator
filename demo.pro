@@ -17,4 +17,4 @@ QT += widgets core websockets webenginewidgets
 
 # Input
 HEADERS += APIWebsockets.h mainwidget.h
-SOURCES += APIWebsockets.cpp main.cpp mainwidget.cpp
+SOURCES += APIWebsockets.cpp main.cpp MainWidget.cpp

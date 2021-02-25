@@ -1,7 +1,7 @@
 
 
 #include <QtWidgets>
-#include "mainwidget.h"
+#include "MainWidget.h"
 
 int main(int argc, char *argv[])
 {

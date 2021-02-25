@@ -2,7 +2,7 @@
 
 #include <QtWidgets>
 #include <QWebEngineView>
-#include "mainwidget.h"
+#include "MainWidget.h"
 #include "APIWebsockets.h"
 
 // Constructor for main widget
@@ -27,6 +27,10 @@ MainWidget::MainWidget(QWidget *parent) :
 
    setLayout(mainLayout);
    setWindowTitle(tr("PotreeAPI demonstrator"));
+
+   //Signal and slots connexion
+   connect(button_, SIGNAL(released()), socketServer_, SLOT(initPointPicking()));
+   
 }
 
 // Destructor

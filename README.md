@@ -28,6 +28,6 @@ Or by launching any [static http server one-liner](https://gist.github.com/willu
 3. You should then be able to run the binary file called `demo`.
 
 ## TODOS
-+ [ ] Implement sending data to websocket client
-+ [ ] Implement signal on "Pick a point" button
++ [x] Implement sending data to websocket client
++ [x] Implement signal on "Pick a point" button
 

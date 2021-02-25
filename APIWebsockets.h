@@ -4,7 +4,7 @@
   #include <QtCore/QObject>
   #include <QtCore/QList>
   #include <QtCore/QByteArray>
-  #include "mainwidget.h"
+  #include "MainWidget.h"
 
   QT_FORWARD_DECLARE_CLASS(QWebSocketServer)
   QT_FORWARD_DECLARE_CLASS(QWebSocket)
@@ -22,10 +22,11 @@
       void onNewConnection();
       void processData(QString data);
       void socketDisconnected();
+      void initPointPicking();
 
   private:
       QWebSocketServer *m_pWebSocketServer;
-      QList<QWebSocket *> m_clients;
+      QWebSocket *m_client;
       MainWidget *m_container;
   };
 
