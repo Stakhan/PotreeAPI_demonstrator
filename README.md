@@ -1,7 +1,7 @@
 # PotreeAPI demonstrator
 
 ## About
-Demonstrator for the ability to communicate between some C++ code and [a slightly modified version of Potree](https://github.com/Stakhan/potree).
+A small demonstrator proving the ability to communicate between some C++ code and [a slightly modified version of Potree](https://github.com/Stakhan/potree).
 
 ## Dependencies
 Make sure you have qt5 installed with the websockets and webengine modules.
