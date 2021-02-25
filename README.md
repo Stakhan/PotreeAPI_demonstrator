@@ -10,7 +10,7 @@ The following packages:
 +`qt5-base`
 +`qt5-websockets`
 +`qt5-webengine`
-### On Ubuntu 20.04 / Debian 
+### On Ubuntu 20.04 / Debian 10 
 The following packages:
 + `qt5-default`
 + `libqt5websockets5-dev`
