@@ -6,14 +6,12 @@ A small demonstrator proving the ability to communicate between some C++ code an
 ## Dependencies
 Make sure you have qt5 installed with the websockets and webengine modules.
 
-__On Ubuntu 20.04 / Debian 10__ 
-You'll need the following packages:
+__On Ubuntu 20.04 / Debian 10__: 
 + `qt5-default`
 + `libqt5websockets5-dev`
 + `qtwebengine5-dev`
 
-__On Manjaro Linux__ 
-You'ill need the following packages:
+__On Manjaro Linux__: 
 + `qt5-base`
 + `qt5-websockets`
 + `qt5-webengine`
@@ -41,3 +39,7 @@ Or by launching any [static http server one-liner](https://gist.github.com/willu
 
 3. You should then be able to run the binary file called `demo`.
 
+## Documentation
+
++ [User Documentation](docs/user_doc.md)
++ [Developer Doc](docs/dev_doc.md)
