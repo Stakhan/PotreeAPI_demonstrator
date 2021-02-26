@@ -3,7 +3,15 @@
 ## About
 A small demonstrator proving the ability to communicate between some C++ code and [a slightly modified version of Potree](https://github.com/Stakhan/potree).
 
-## Dependencies
+## Getting Started
+
+### Cloning this repository
+:warning: You have to use the `--recursive` option to ensure that the whole repository is being cloned, because it contains a submodule (a nested repository):
+```
+git clone --recursive https://github.com/Stakhan/PotreeAPI_demonstrator
+```
+
+### Dependencies
 Make sure you have qt5 installed with the websockets and webengine modules.
 
 __On Ubuntu 20.04 / Debian 10__: 
@@ -16,14 +24,14 @@ __On Manjaro Linux__:
 + `qt5-websockets`
 + `qt5-webengine`
 
-## Compiling
+### Compiling
 In the project folder, in a shell:
 ```
 qmake
 make
 ```
 
-## Running
+### Running
 1. Make sure [the slightly modified version of Potree](https://github.com/Stakhan/potree) has been installed.
 
 To install it, go to the potree folder and launch:
