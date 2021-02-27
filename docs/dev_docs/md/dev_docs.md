@@ -1,11 +1,13 @@
-# Summary
+# Developer Documentation
+
+__Summary__
 
  Members                        | Descriptions                                
 --------------------------------|---------------------------------------------
 `class `[`APIWebsockets`](#classAPIWebsockets) | Manages websocket connections with Potree mdInfinity API.
 `class `[`MainWidget`](#classMainWidget) | Implements the graphical interface of the demonstrator.
 
-# class `APIWebsockets` {#classAPIWebsockets}
+# class `APIWebsockets` 
 
 ```
 class APIWebsockets
@@ -23,7 +25,7 @@ Manages websocket connections with Potree mdInfinity API.
 
 ## Members
 
-#### `public  explicit `[`APIWebsockets`](#classAPIWebsockets_1a87e4a2d111fc69d28d2b3936d8750e41)`(quint16 port,`[`MainWidget`](#classMainWidget)` * container,QObject * parent)` {#classAPIWebsockets_1a87e4a2d111fc69d28d2b3936d8750e41}
+#### `public  explicit `[`APIWebsockets`](#classAPIWebsockets_1a87e4a2d111fc69d28d2b3936d8750e41)`(quint16 port,`[`MainWidget`](#classMainWidget)` * container,QObject * parent)` 
 
 Construct a new [APIWebsockets](#classAPIWebsockets) object.
 
@@ -36,11 +38,11 @@ Runs a websocket server to listen for Potree mdInfinityAPI
 
 * `parent` the parent widget
 
-#### `public virtual  `[`~APIWebsockets`](#classAPIWebsockets_1a0d05aa8c772216e49e7fc37dc4ccfc37)`()` {#classAPIWebsockets_1a0d05aa8c772216e49e7fc37dc4ccfc37}
+#### `public virtual  `[`~APIWebsockets`](#classAPIWebsockets_1a0d05aa8c772216e49e7fc37dc4ccfc37)`()` 
 
 Destroy the [APIWebsockets](#classAPIWebsockets) object.
 
-# class `MainWidget` {#classMainWidget}
+# class `MainWidget` 
 
 ```
 class MainWidget
@@ -61,7 +63,7 @@ The main components of the graphical interface are described in this class. It i
 
 ## Members
 
-#### `public  explicit `[`MainWidget`](#classMainWidget_1a326fee5088b7cebaa102ed5332dd59ee)`(QWidget * parent)` {#classMainWidget_1a326fee5088b7cebaa102ed5332dd59ee}
+#### `public  explicit `[`MainWidget`](#classMainWidget_1a326fee5088b7cebaa102ed5332dd59ee)`(QWidget * parent)` 
 
 Construct a new Main Widget object.
 
@@ -70,11 +72,11 @@ Initiates all the GUI elements (button, web view and text field). Defines a layo
 #### Parameters
 * `parent` parent Widget, optional
 
-#### `public  `[`~MainWidget`](#classMainWidget_1add21c63f8e799303a21a69da3d288c2f)`()` {#classMainWidget_1add21c63f8e799303a21a69da3d288c2f}
+#### `public  `[`~MainWidget`](#classMainWidget_1add21c63f8e799303a21a69da3d288c2f)`()` 
 
 Destroy the Main Widget object.
 
-#### `public void `[`log`](#classMainWidget_1a7e6842aba4df2fd5982e90eb80a7c101)`(QString text)` {#classMainWidget_1a7e6842aba4df2fd5982e90eb80a7c101}
+#### `public void `[`log`](#classMainWidget_1a7e6842aba4df2fd5982e90eb80a7c101)`(QString text)` 
 
 Appends log to demonstrator text field.
 
