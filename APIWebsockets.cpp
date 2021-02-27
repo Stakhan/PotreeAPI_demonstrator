@@ -49,12 +49,6 @@
 
   void APIWebsockets::socketDisconnected()
   {
-    //   QWebSocket *pClient = qobject_cast<QWebSocket *>(sender());
-    //   if (pClient)
-    //   {
-    //       m_client.removeAll(pClient);
-    //       pClient->deleteLater();
-    //   }
     m_client->deleteLater();
   }
 

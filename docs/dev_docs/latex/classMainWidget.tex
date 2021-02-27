@@ -1,0 +1,78 @@
+\hypertarget{classMainWidget}{}\doxysection{Main\+Widget Class Reference}
+\label{classMainWidget}\index{MainWidget@{MainWidget}}
+
+
+Implements the graphical interface of the demonstrator.  
+
+
+
+
+{\ttfamily \#include $<$Main\+Widget.\+h$>$}
+
+Inheritance diagram for Main\+Widget\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classMainWidget}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classMainWidget_a326fee5088b7cebaa102ed5332dd59ee}{Main\+Widget}} (QWidget $\ast$parent=0)
+\begin{DoxyCompactList}\small\item\em Construct a new Main Widget object. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classMainWidget_add21c63f8e799303a21a69da3d288c2f}\label{classMainWidget_add21c63f8e799303a21a69da3d288c2f}} 
+\mbox{\hyperlink{classMainWidget_add21c63f8e799303a21a69da3d288c2f}{$\sim$\+Main\+Widget}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the Main Widget object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMainWidget_a7e6842aba4df2fd5982e90eb80a7c101}{log}} (QString text)
+\begin{DoxyCompactList}\small\item\em Appends log to demonstrator text field. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implements the graphical interface of the demonstrator. 
+
+The main components of the graphical interface are described in this class. It inherits from QWidget and contains a button, a plain text field, and a web view. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classMainWidget_a326fee5088b7cebaa102ed5332dd59ee}\label{classMainWidget_a326fee5088b7cebaa102ed5332dd59ee}} 
+\index{MainWidget@{MainWidget}!MainWidget@{MainWidget}}
+\index{MainWidget@{MainWidget}!MainWidget@{MainWidget}}
+\doxysubsubsection{\texorpdfstring{MainWidget()}{MainWidget()}}
+{\footnotesize\ttfamily Main\+Widget\+::\+Main\+Widget (\begin{DoxyParamCaption}\item[{QWidget $\ast$}]{parent = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Construct a new Main Widget object. 
+
+Initiates all the GUI elements (button, web view and text field). Defines a layout to arrange these elements. Initiate the Websocket server to listen for Potree. Connects the proper signal and slots.
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & parent Widget, optional \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classMainWidget_a7e6842aba4df2fd5982e90eb80a7c101}\label{classMainWidget_a7e6842aba4df2fd5982e90eb80a7c101}} 
+\index{MainWidget@{MainWidget}!log@{log}}
+\index{log@{log}!MainWidget@{MainWidget}}
+\doxysubsubsection{\texorpdfstring{log()}{log()}}
+{\footnotesize\ttfamily void Main\+Widget\+::log (\begin{DoxyParamCaption}\item[{QString}]{text }\end{DoxyParamCaption})}
+
+
+
+Appends log to demonstrator text field. 
+
+Provided string is appended to demonstrator text field.
+
+
+\begin{DoxyParams}{Parameters}
+{\em text} & text data to log \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Main\+Widget.\+h\item 
+Main\+Widget.\+cpp\end{DoxyCompactItemize}

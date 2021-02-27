@@ -1,0 +1,58 @@
+\hypertarget{md_README_autotoc_md1}{}\doxysection{About}\label{md_README_autotoc_md1}
+A small demonstrator proving the ability to communicate between some C++ code and \href{https://github.com/Stakhan/potree}{\texttt{ a slightly modified version of Potree}}.\hypertarget{md_README_autotoc_md2}{}\doxysection{Getting Started}\label{md_README_autotoc_md2}
+\hypertarget{md_README_autotoc_md3}{}\doxysubsection{Cloning this repository}\label{md_README_autotoc_md3}
+\+:warning\+: You have to use the {\ttfamily -\/-\/recursive} option to ensure that the whole repository is being cloned, because it contains a submodule (a nested repository)\+: 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{git clone -\/-\/recursive https://github.com/Stakhan/PotreeAPI\_demonstrator}
+
+\end{DoxyCode}
+\hypertarget{md_README_autotoc_md4}{}\doxysubsection{Dependencies}\label{md_README_autotoc_md4}
+Make sure you have qt5 installed with the websockets and webengine modules.
+
+{\bfseries{On Ubuntu 20.\+04 / Debian 10}}\+:
+\begin{DoxyItemize}
+\item {\ttfamily qt5-\/default}
+\item {\ttfamily libqt5websockets5-\/dev}
+\item {\ttfamily qtwebengine5-\/dev}
+\end{DoxyItemize}
+
+{\bfseries{On Manjaro Linux}}\+:
+\begin{DoxyItemize}
+\item {\ttfamily qt5-\/base}
+\item {\ttfamily qt5-\/websockets}
+\item {\ttfamily qt5-\/webengine}
+\end{DoxyItemize}\hypertarget{md_README_autotoc_md5}{}\doxysubsection{Compiling}\label{md_README_autotoc_md5}
+In the project folder, in a shell\+: 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{qmake}
+\DoxyCodeLine{make}
+
+\end{DoxyCode}
+\hypertarget{md_README_autotoc_md6}{}\doxysubsection{Running}\label{md_README_autotoc_md6}
+
+\begin{DoxyEnumerate}
+\item Make sure \href{https://github.com/Stakhan/potree}{\texttt{ the slightly modified version of Potree}} has been installed.
+\end{DoxyEnumerate}
+
+To install it, go to the potree folder and launch\+: 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{npm install}
+
+\end{DoxyCode}
+
+
+
+\begin{DoxyEnumerate}
+\item Make sure Potree is running on {\ttfamily \href{http://localhost:1234}{\texttt{ http\+://localhost\+:1234}}}. The latter can easily be done by using npm in the potree folder\+: 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{npm start }
+
+\end{DoxyCode}
+ Or by launching any \href{https://gist.github.com/willurd/5720255}{\texttt{ static http server one-\/liner}} on port 1234.
+\item You should then be able to run the binary file called {\ttfamily demo}.
+\end{DoxyEnumerate}\hypertarget{md_README_autotoc_md7}{}\doxysection{Documentation}\label{md_README_autotoc_md7}
+
+\begin{DoxyItemize}
+\item User Documentation
+\item Developer Doc 
+\end{DoxyItemize}
