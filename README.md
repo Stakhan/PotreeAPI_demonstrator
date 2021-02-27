@@ -50,4 +50,4 @@ Or by launching any [static http server one-liner](https://gist.github.com/willu
 ## Documentation
 
 + [User Documentation](docs/user_doc.md)
-+ [Developer Doc](docs/dev_docs/md/dev_docs.md)
++ [Developer Documentation](docs/dev_docs/md/dev_docs.md)
